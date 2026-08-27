@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoToMada-Découvrez Madagascar autrement</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+
+</head>
+
+<body>
+    <header>
+        <div class="navLien">
+            <nav>
+                <!-- Logo principal de GoToMada -->
+                <img class="logoGotomada" src="images/logo-gotomada.png"
+                    alt="Le logo de GoToMada représentant un lémurien">
+
+                <!-- Bouton du menu burger : sera affiché uniquement sur les petits écrans -->
+                <button class="menuBurger">☰</button>
+
+                <!-- Conteneur qui regroupe les liens de navigation -->
+                <div class="navigation">
+                    <!-- Liste des liens du menu de navigation -->
+                    <ul>
+                        <li>
+                            <a class="accueilActif" href="#accueil">Accueil</a>
+                        </li>
+
+                        <li>
+                            <a href="#nosSejours">Séjours</a>
+                        </li>
+
+                        <li>
+                            <a href="#aPropos">Qui sommes-nous?</a>
+                        </li>
+
+                        <li>
+                            <a href="#avisetNotation">Avis et notation</a>
+                        </li>
+
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Conteneur des actions de l'utilisateur -->
+                <div class="actions">
+
+                    <!-- Bouton de recherche avec l'icône loupe -->
+                    <!-- <button class="boutonRecherche">
+                        🔍</button> -->
+                    <i class="fa fa-search"></i>
+
+                    <!-- Bouton de connexion -->
+                    <button class="boutonConnexion">Connexion</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!-- Section hero -->
+        <section id="accueil">
+
+            <h1>Découvrez Madagascar</h1>
+
+            <p>Des paysages uniques, des expériences inoubliables,des souvenirs pour la vie</p>
+            <a href="sejours.html">Explorez les destinations</a>
+
+
+        </section>
+
+        <!-- section de présentation de Madagascar -->
+        <section id="madagascar">
+            <div class="carteMadagascar">
+                <img class="imageMadagascar" src="images/carte-de-Madagascar.png" alt="image de la carte de Madagascar">
+
+            </div>
+            <!-- div parents -->
+            <div class="contenu">
+                <div class="presentationMadagascar">
+                    <h2 class="pourquoiMada">Pourquoi visiter Madagascar?</h2>
+                    <p class="visiterMadagascar">
+                        Madagascar est une île unique située dans l'océan Indien, reconnue pour sa biodiversité
+                        exceptionnelle, ses plages paradisiaques et ses paysages uniques.
+                    </p>
+                </div>
+                
+                <div class="statistiques">
+
+                    <div class="statistique">
+                        <p class="pourcentage">90% d'espèces endémiques</p>
+
+                    </div>
+                    <div class="statistique">
+                        <p>Plus de 5 000 km de côtes</p>
+                    </div>
+                    <div class="statistique">
+                        <p>Plus de 50 parcs et réserves naturelles</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section a propos -->
+        <section id="aPropos">
+            <h2 class="titreApropos">A propos de GoToMada</h2>
+            <div class="conteneurApropos">
+                <img src="images/image-section-a-propos.jpg" alt="image d'une touriste s'amusant avec les malgaches ">
+                <p class="paragrapheapresTitre">GoToMada est une agence de voyage dédiée à la découverte de Madagascar.
+                    Notre objectif est de vous faire découvrir l'île autrement, à travers des séjours organisés qui
+                    associent nature, culture, détente et aventure.
+
+                    Nous vous accompagnons dans la préparation de votre voyage en proposant des séjours adaptés à vos
+                    envies, avec des hébergements, des transports, des activités et des expériences soigneusement
+                    sélectionnés.
+
+                    Notre ambition : vous permettre de découvrir Madagascar sereinement et de vivre des moments
+                    authentiques et inoubliables.
+                </p>
+            </div>
+
+        </section>
+        <!-- section séjours -->
+        <section id="nosSejours">
+            <h2>Nos séjours</h2>
+
+            <div class="lesCartes">
+                <!-- flèche gauche verte -->
+                <!-- <span class="flecheGauche">‹</span> -->
+                <div class="carte">
+                    <div class="imagePrix">
+                        <img src="images/ile-sainte-marie-2.jpg"
+                            alt="image d'une baleine dans la mer de  l'ile sainte Marie">
+                        <p class="prix">À partir de 100$</p>
+                    </div>
+                    <div class="elementsCarte">
+                        <div class="titreVoyage">
+                            <h3>Île Sainte-Marie</h3>
+
+                            <p class="voyage">voyage de 10 jours</p>
+                        </div>
+                        <p class="description">Découvrez les plages paradisiaques et l'ambiance authentique de
+                            Sainte-Marie
+                            lors d'un séjour
+                            tout compris.</p>
+                        <a class="boutonVoirplus" href="sejours.html">Voir plus</a>
+                    </div>
+                </div>
+                <div class="carte">
+                    <div class="imagePrix">
+                        <img src="images/parc-isalo-1.jpg" alt="image de isalo parc">
+
+                        <p class="prix">À partir de 200$</p>
+                    </div>
+                    <div class="elementsCarte">
+                        <div class="titreVoyage">
+                            <h3>Parc national de l'Isalo</h3>
+
+                            <p class="voyage">voyage de 10 jours</p>
+                        </div>
+                        <p class="description">Explorez les paysages spectaculaires de l'Isalo et vivez une aventure au
+                            cœur
+                            de la nature
+                            malgache.</p>
+                        <a class="boutonVoirplus" href="sejours.html">Voir plus</a>
+                    </div>
+                </div>
+                <div class="carte">
+                    <div class="imagePrix">
+                        <img src="images/nosy-be-2.jpg" alt="image d'une belle plage de l'ile Nosy-be">
+                        <p class="prix">À partir de 80$</p>
+                    </div>
+                    <div class="elementsCarte">
+                        <div class="titreVoyage">
+                            <h3>Nosy Be</h3>
+
+                            <p class="voyage">voyage de 10 jours</p>
+                        </div>
+                        <p class="description">Profitez des eaux turquoise de Nosy Be et d'un séjour alliant détente,
+                            découverte et évasion.</p>
+                        <a class="boutonVoirplus" href="sejours.html">Voir plus</a>
+                    </div>
+
+                    <!-- flèche droite verte -->
+                </div>
+                <!-- <span class="flecheDroite">›</span> -->
+            </div>
+
+        </section>
+        <!-- section avis et notation -->
+        <section id="avisetNotation">
+            <h2>Avis et notation</h2>
+            <div class="conteneurBloc">
+                <!-- note étoiles et note -->
+                <div class="listeAvis">
+                    <p>Avis de nos clients</p>
+                    <!-- ici je mettrai les étoiles mais je ne connais pas encore comment le faire  -->
+                    <!--je rajoute des divs pour contenir/regrouper chaque paragraphe avec leurs étoiles-->
+                    <div class="ligneAvis">
+                        <span>★★★★★</span>
+                        <p>5</p>
+
+                    </div>
+                    <div class="ligneAvis">
+                        <span>★★★★☆</span>
+                        <p>62</p>
+
+                    </div>
+                    <div class="ligneAvis">
+                        <span>★★★☆☆</span>
+                        <p>23</p>
+
+                    </div>
+                    <div class="ligneAvis">
+                        <span>★★☆☆☆</span>
+                        <p>2</p>
+                    </div>
+                    <div class="ligneAvis">
+                        <span>★☆☆☆☆</span>
+                        <p>1</p>
+
+                    </div>
+                </div>
+
+                <div class="avisClients">
+                    <div class="avis">
+                        <div class="informations">
+                            <!-- Photo de profil de l'utilisateur -->
+                            <img src="./images/portrait-lucas.png" alt="portrait de lucas pour un avis client">
+                            <div class="nomDestination">
+                                <div class="pSpan">
+                                    <p>Lucas Bernard</p>
+                                    <span>★★★★★</span>
+                                </div>
+                                <p> Parc national de l'Isalo</p>
+                            </div>
+                        </div>
+                        <!--note étoiles-->
+                        <div class="note">
+                            <!-- les commentaires -->
+
+                            <p>Un séjour exceptionnel ! L'hôtel était confortable, les activités étaient parfaitement
+                                organisées et le transport s'est déroulé sans souci. Les plages de Sainte-Marie sont
+                                magnifiques. Je recommande cette expérience à 100 %.</p>
+                        </div>
+                    </div>
+
+                    <div class="avis">
+                        <div class="informations">
+                            <img src="./images/portrait-sophie.png" alt="portrait de sophie pour un avis de client">
+                            <div class="nomDestination">
+                                <div class="pSpan">
+                                    <p>Sophie Martin</p>
+                                    <span>★★★★☆</span>
+                                </div>
+                                <p>Île Sainte-Marie</p>
+                            </div>
+                        </div>
+                        <!-- note -->
+                        <div class="note"></div>
+                        <p>Nous avons découvert des paysages incroyables grâce à une organisation parfaite. Les
+                            randonnées, les repas et l'hébergement étaient de grande qualité. Un voyage inoubliable que
+                            nous referons avec plaisir.</p>
+                    </div>
+                </div>
+            </div>
+            <a class="boutonVoirplus" href="sejours.html">Voir plus</a>
+        </section>
+        <!-- </section> -->
+    </main>
+    <footer>
+        <div class="footerContenu">
+            <div class="colonneGotomada">
+                <h3>GoToMada</h3>
+                <!-- description de l'agence GoToMada-->
+                <p>Partez à la découverte de Madagascar avec GoToMada et vivez des expériences uniques entre plages,
+                    nature, culture et paysages exceptionnels.</p>
+                <div class="logoApp">
+
+                    <img class="logo" src="images/logo-linkediln.png" alt="logo de linkedin">
+
+                    <img class="logo" src="images/logo-instagram.png" alt="logo d'instagram">
+                    <img class="logo" src="images/logo-facebook.png" alt="logo de facebook">
+                </div>
+            </div>
+            
+            <div class="learnMore">
+                <h3>En savoir plus</h3>
+                <a href="apropos.html">À Propos</a>
+                <a href="index.html">Notre histoire</a>
+                <a href="index.html">Nos engagements</a>
+                <a href="actualites.html">Actualités</a>
+            </div>
+            <div class="support">
+                <h3>Support</h3>
+                <a href="contact.html">Contact</a>
+                <a href="faq.html">FAQ</a>
+                <a href="conditions.html">Conditions générales</a>
+                <a href="politique.html">Politique de confidentialité</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

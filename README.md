@@ -1,4 +1,4 @@
-# GoToMad
+# GoToMada
 
 ## Présentation
 
